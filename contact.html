@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Minu Koduleht</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Kodu</a></li>
+                <li><a href="about.html">Meist</a></li>
+                <li><a href="services.html">Teenused</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Kontakt</h2>
+            <form id="contactForm">
+                <label for="name">Nimi:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Sõnum:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Saada</button>
+            </form>
+            <p id="formMessage"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minu Koduleht</p>
+    </footer>
+</body>
+</html>
